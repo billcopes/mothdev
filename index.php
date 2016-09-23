@@ -9,7 +9,7 @@ $level2 = "";
 include('include/header.php');
 ?>
 
-<section class="home-top">
+<!--section class="home-top">
   <span class="home-img" data-picture data-alt="Moth Design">
      <span data-src="images/home/home-misti.jpg"></span>
      <span data-src="images/home/home-misti-600.jpg" data-media="(max-width: 600px)"></span>
@@ -19,25 +19,27 @@ include('include/header.php');
     <h2><span class="misti">MISTI</span></h2>
     <div class="home-block-text">NOT pizza in the piazza.</div>
   </a>
-</section>
+</section-->
+
 
 <section class="home-text">
-  <h1>Moth is a savvy, multidisciplinary studio devoted to smart strategies and elegant design solutions.</h1>
+ 	<h1 style="font-size: 16px;">Bill is building this right now.</h1>
+  <!--h1>Moth is a savvy, multidisciplinary studio devoted to smart strategies and elegant design solutions.</h1-->
 </section>
 
 <section class="home-first">
   <span class="home-img" data-picture data-alt="Moth Design">
-     <span data-src="images/home/home-mitad.png"></span>
+     <span data-src="images/home/homepage-1.png"></span>
      <span data-src="images/home/home-mitad-600.png" data-media="(max-width: 600px)"></span>
-     <noscript><img src="images/home/home-mitad.png" width="1600" height="800" alt="MIT Admissions"></noscript>
+     <noscript><img src="images/home/homepage-1.png" width="1600" height="800" alt="Roadscholar"></noscript>
   </span>
-  <a href="mit-admissions.php" class="home-block">
-    <h2><span class="mit-admissions">MIT Admissions</span></h2>
+  <a href="roadscholar" class="home-block">
+    <h2><span class="roadscholar">Roadscholar</span></h2>
     <div class="home-block-text">Contrary to rumors, print is alive and well in the halls of MIT</div>
   </a>
 </section>
 
-<section class="home-second">
+<!--section class="home-second">
   <span class="home-img" data-picture data-alt="Moth Design">
      <span data-src="images/home/home-deerfield.jpg"></span>
      <span data-src="images/home/home-deerfield-600.jpg" data-media="(max-width: 600px)"></span>
@@ -63,7 +65,7 @@ include('include/header.php');
 
 <section class="home-text">
   <h3><a href="work.php">View more of our work</a></h3>
-</section>
+</section-->
 
 
 <?php include( 'include/footer.php' ); ?>

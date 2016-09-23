@@ -28,7 +28,6 @@ include('include/header.php');
      	   	<div class="more"><span class="read-more">Read More<span class="icon-m-down"></span></span><span class="read-less">Read Less<span class="icon-m-top"></span></span></div>
 		</div> <!-- /project-description -->
 	  </div> <!-- /project -->
-	  
  	<div class="image-grid">
 		<div class="m-all t-all d3-d10"><img src="images/yuso/yuso-1.png" alt=""></div>
 		<div class="space">&nbsp;</div>
@@ -54,7 +53,6 @@ include('include/header.php');
 </div><!-- /WRAP -->
 <div class="bg-image yus2 m-hide"></div>
 <div class="bg-image2 m-hide"><img src="images/yuso/div-1_600x300.png" width="600" height="300" alt=""></div>
-
 <div class="wrap">
 	<div class="image-grid">	
 		<div class="whitespace m-hide">&nbsp;</div>
