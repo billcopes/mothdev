@@ -9,6 +9,26 @@ $level2 = "";
 include('include/header.php');
 ?>
 
+
+
+<section class="home-text">
+ 	<h1 style="font-size: 16px;">Bill is building this right now.</h1>
+  <!--h1>Moth is a savvy, multidisciplinary studio devoted to smart strategies and elegant design solutions.</h1-->
+</section>
+
+<section class="home-first">
+  <span class="home-img" data-picture data-alt="Road Scholar">
+     <span data-src="images/home/homepage-1.png"></span>
+     <span data-src="images/home/homepage-1.png" data-media="(max-width: 600px)"></span>
+     <noscript><img src="images/home/homepage-1.png" alt="Roadscholar"></noscript>
+  </span>
+  <a href="roadscholar" class="home-block">
+    <h2><span class="roadscholar">Roadscholar</span></h2>
+    <div class="home-block-text">Contrary to rumors, print is alive and well in the halls of MIT</div>
+  </a>
+</section>
+
+
 <!--section class="home-top">
   <span class="home-img" data-picture data-alt="Moth Design">
      <span data-src="images/home/home-misti.jpg"></span>
@@ -20,24 +40,6 @@ include('include/header.php');
     <div class="home-block-text">NOT pizza in the piazza.</div>
   </a>
 </section-->
-
-
-<section class="home-text">
- 	<h1 style="font-size: 16px;">Bill is building this right now.</h1>
-  <!--h1>Moth is a savvy, multidisciplinary studio devoted to smart strategies and elegant design solutions.</h1-->
-</section>
-
-<section class="home-first">
-  <span class="home-img" data-picture data-alt="Moth Design">
-     <span data-src="images/home/homepage-1.png"></span>
-     <span data-src="images/home/home-mitad-600.png" data-media="(max-width: 600px)"></span>
-     <noscript><img src="images/home/homepage-1.png" width="1600" height="800" alt="Roadscholar"></noscript>
-  </span>
-  <a href="roadscholar" class="home-block">
-    <h2><span class="roadscholar">Roadscholar</span></h2>
-    <div class="home-block-text">Contrary to rumors, print is alive and well in the halls of MIT</div>
-  </a>
-</section>
 
 <!--section class="home-second">
   <span class="home-img" data-picture data-alt="Moth Design">
