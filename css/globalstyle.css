@@ -150,7 +150,7 @@ a {text-decoration:none;}
 
 
 body,button,input,select,textarea, .back a {font-family:"FaktPro-Blond", Arial, Helvetica, sans-serif; font-style:normal;}
-h1, .home-text h3, .home-block h2, .work-list h2, .footsignature {font-family:"Harriet Display Light", Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}
+h1,.home-top, .home-text h3, .home-block h2, .work-list h2, .footsignature {font-family:"Harriet Display Light", Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}
 .sub-menu ul ul h2, .studio .wrap ul, .workwithus {font-family:"Harriet Text", Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}
 .client, .sub-menu li a, .project-nav h3, .studio p, .contact p {font-family:"Harriet Text Light", Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}
 .sub-menu li.active a {font-family:"Harriet Text Medium";font-style:normal;font-weight:normal;}
@@ -235,11 +235,11 @@ textarea{overflow:auto;padding-left:0.188em;vertical-align:top;width:98%;}
 -------------------------------------------------------------- */
 .site-header {width:100%;background:#fff;height:3.75em;position:fixed;top:0;z-index:10;-moz-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.30);-webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.30);box-shadow:0px 1px 2px rgba(0, 0, 0, 0.30);}
 .logo {margin-left:2.250em;margin-top:1em;float:left;display:inline-block;}
-a.icon-moth-logo {font-size:26px;font-size:2.6rem;color:#2c282e; transition:all .5s ease;}
+a.icon-moth-logo {font-size:26px;font-size:2.6rem;color:#4A4A4A; transition:all .5s ease;}
 a.icon-moth-logo span {display:none;}
 .workhead {display:inline;position:relative;top:-0.125em;cursor:pointer;}
 .workhead .menuarrow {display:inline;font-size:15px;font-size:1.5rem;padding-left:0.375em;vertical-align:middle;}
-.client {font-size:18px;font-size:1.8rem;display:inline-block;vertical-align:middle;color:#2c282e;}
+.client {font-size:18px;font-size:1.8rem;display:inline-block;vertical-align:middle;color:#4A4A4A;}
 .workhead-m {display:none;}
 
 
@@ -260,7 +260,7 @@ nav {display:inline;}
 	letter-spacing:2px;
 	padding-bottom:0.3em;
 	text-transform:uppercase;
-	color:#2c282e;
+	color:#4A4A4A;
 	position: relative;
 	overflow: hidden;
 	line-height: 1;
@@ -292,13 +292,13 @@ nav {display:inline;}
 /* =SUB MENU
 -------------------------------------------------------------- */
 .sub-menu {background:#fff;position:absolute;z-index:11;width:100%;left:0;top:3.75em;padding-left:8.25em;margin:0;-moz-box-shadow:0px 2px 2px rgba(0, 0, 0, 0.30);-webkit-box-shadow:0px 2px 2px rgba(0, 0, 0, 0.30);box-shadow:0px 2px 2px rgba(0, 0, 0, 0.30);display:none;}
-.sub-menu ul {float:left;padding:1.6em 0 .3em;margin-left:1.875em;color:#2c282e;}
+.sub-menu ul {float:left;padding:1.6em 0 .3em;margin-left:1.875em;color:#4A4A4A;}
 .sub-menu li {display:block;font-weight:normal;line-height:0;}
 .sub-menu li a {
 	font-size:1.6rem;
 	/*padding:0.188em 0 0.125em;*/
 	line-height:2.250em;
-	color:#2c282e;
+	color:#4A4A4A;
 	display: block;
 	display: inline-block;
 	position: relative;
@@ -615,7 +615,7 @@ img.img90 {max-width:90%;min-width:90%;}
 /* =PROJECT  PAGES
 -------------------------------------------------------------- */
 .project {margin:2.063em auto 3.750em;}
-.project h1 {margin-bottom:.4em; line-height:1.133em; text-align:center; color:#2c282e;}
+.project h1 {margin-bottom:.4em; line-height:1.133em; text-align:center; color:#4A4A4A;}
 .project-description {width:746px; margin:0 auto;}
 .mit-giving .project-description { width: 686px;}
 .project-description h2 {font-size:12px;font-size:1.2rem;margin-bottom:1.75em;line-height:1.5em;text-align:center;text-transform:uppercase;letter-spacing:2px;}
@@ -661,7 +661,7 @@ img.img90 {max-width:90%;min-width:90%;}
 	overflow: hidden;
 }
 .site-link a:hover {
-	color:#2c282e;
+	color:#4A4A4A;
 }
 
 /* award block */
@@ -678,7 +678,7 @@ img.img90 {max-width:90%;min-width:90%;}
 .project-nav .icon-prev {float:left;margin-right:0.96em;}
 .project-nav .icon-next {float:right;margin-left:0.96em;}
 .project-nav h4 {font-size:10px;font-size:1rem;letter-spacing:1px;text-transform:uppercase;color:#565358;}
-.project-nav h3 {font-size:25px;font-size:2.5rem;color:#2c282e;line-height:1.28em;padding-bottom:0.08em;overflow:hidden;}
+.project-nav h3 {font-size:25px;font-size:2.5rem;color:#4A4A4A;line-height:1.28em;padding-bottom:0.08em;overflow:hidden;}
 .project-nav h3 span {
 	padding-bottom:0.18em;
 	display: inline-block;
@@ -723,25 +723,54 @@ img.img90 {max-width:90%;min-width:90%;}
 
 /* =HOMEPAGE
 -------------------------------------------------------------- */
+.home-section {
+	padding: 5em;
+}
 .home-top, .home-first, .home-second, .home-third {width:100%; position:relative; line-height:0;}
 .home-img img {display:block;max-width:100%;min-width:100%;height:auto;margin:0;}
-.home-top {margin-top:60px;}
 
-.home-block {width:auto; position:absolute; color:#2c282e;}
+.home-top {
+	margin-top:60px;
+	background-color: #F4F5F2;
+	height: 590px;
+}
+.home-block {
+	width:auto;
+	max-width: 280px;
+	position:absolute;
+	color:#4A4A4A;}
+
 .home-block h2 {
 	font-size:42px;
 	font-size:4.2rem;
 	line-height:1.19em;
 	margin:0 auto .25em;
 }
-
 .home-block h2 span {
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
 	padding: 0 0 .2em;
 }
-.home-block-text {font-size:14px; font-size:1.4rem; line-height:1.429em; margin:0 auto; text-transform:uppercase; letter-spacing:1px;}
+.home-block-text {
+	font-size:1.8rem;
+	line-height:1.429em;
+	margin:0 auto;
+	letter-spacing: .02rem;
+}
+
+.home-block-text:after {
+	content:" \2192";
+	color: #73E5D0;
+}
+
+/* = First Home Page Block*/
+
+.home-first .home-block {
+	bottom: 6em;
+}
+
+
 
 /*.home-top .home-block-text {width:245px;}
 .home-top .home-block {top:43.5%; left:13.625%;}
@@ -758,11 +787,11 @@ img.img90 {max-width:90%;min-width:90%;}
 .home-third .home-block {top:43.5%; left:13.625%;}
 */
 .home-text {position:relative; z-index:2; padding:5.813em 0; background:#fff; -moz-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.30); -webkit-box-shadow:0px 2px 3px rgba(0, 0, 0, 0.30); box-shadow:0px 2px 3px rgba(0, 0, 0, 0.30);}
-.home-text h1, .home-text h3, .studio .home-text h3 {max-width:1320px; margin:0 auto; font-size:56px; font-size:5.6rem; text-align:center; color:#2c282e;}
+.home-text h1, .home-text h3, .studio .home-text h3 {max-width:1320px; margin:0 auto; font-size:56px; font-size:5.6rem; text-align:center; color:#4A4A4A;}
 .home-text h1 {line-height:1.492em;}
 .home-text h3 {line-height:1.075em;}
 .home-text h3 a {
-	color:#2c282e;
+	color:#4A4A4A;
 	display:inline-block;
 	overflow: hidden;
 	position: relative;
@@ -772,7 +801,18 @@ img.img90 {max-width:90%;min-width:90%;}
 .home-text h3 a::before {
 	border-color: #73e5d0;
 }
-.home-block h2, .home-top, .home-first, .home-second, .home-third, .home-block-text {-webkit-transition: all 0.5s ease;-moz-transition: all 0.5s ease;-o-transition: all 0.5s ease;-ms-transition: all 0.5s ease;transition: all 0.5s ease;}
+.home-block h2,
+.home-top,
+.home-first,
+.home-second,
+.home-third,
+.home-block-text {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
 
 
 
@@ -786,9 +826,9 @@ img.img90 {max-width:90%;min-width:90%;}
 .work-list li a:hover {background-color:#ffffff; -moz-box-shadow:0px 2px 2px rgba(0, 0, 0, 0.10);-webkit-box-shadow:0px 2px 2px rgba(0, 0, 0, 0.10);box-shadow:0px 2px 2px rgba(0, 0, 0, 0.10); z-index:2;}
 .work-list li a span {float:right;font-size:28px;font-size:2.8rem;margin-top:1.357em;display:none;}
 .work-list li a:hover span {display:inline;}
-.work-list h2 {display:inline-block;margin:0; padding-top:0.579em; color:#2c282e; width:55%;}
+.work-list h2 {display:inline-block;margin:0; padding-top:0.579em; color:#4A4A4A; width:55%;}
 .work-list h3 {display:inline-block;margin:0;font-size:10px;font-size:1rem;color:#565358;width:40%;text-transform:uppercase;vertical-align:text-top;letter-spacing:1px; overflow:hidden;}
-.work-list li a:hover h3 {color:#2c282e;}
+.work-list li a:hover h3 {color:#4A4A4A;}
 .work-list li.isgm a {background-image:url(../images/isgm/thumb_80px.png);}
 .work-list li.yuso a {background-image:url(../images/yuso/thumb_80px.png);}
 .work-list li.skinner a {background-image:url(../images/skinner/thumb_80px.png);}
@@ -855,8 +895,8 @@ img.img90 {max-width:90%;min-width:90%;}
 
 /* =STUDIO & CONTACT
 -------------------------------------------------------------- */
-.studio h1, .contact h1 {line-height:1.15em;text-align:center;color:#2c282e;}
-.studio p, .contact p {font-size:20px;font-size:2rem; line-height:1.95em; margin:0 auto 1.5em; width:66%; text-align:center; color:#2c282e; /*letter-spacing:1px;*/}
+.studio h1, .contact h1 {line-height:1.15em;text-align:center;color:#4A4A4A;}
+.studio p, .contact p {font-size:20px;font-size:2rem; line-height:1.95em; margin:0 auto 1.5em; width:66%; text-align:center; color:#4A4A4A; /*letter-spacing:1px;*/}
 
 .intro h1 {margin:0 auto .4em; width:470px;}
 .whatwedo h1 {margin:0 auto .35em; width:380px;}
@@ -898,10 +938,10 @@ img.img90 {max-width:90%;min-width:90%;}
 .workwithus {padding:3em 0 2.5em; background:#fff;}
 .studio .workwithus p {text-align:center;}
 .workwithus a {padding-bottom:.25em; border-bottom:2px solid #000;color:#565358;f}
-.workwithus a:hover {color:#2c282e;}
+.workwithus a:hover {color:#4A4A4A;}
 
 /* contact overrides */
-.contact .wrap a {color:#2c282e; font-size:14px; font-size:1.4rem; padding-bottom:4px;}
+.contact .wrap a {color:#4A4A4A; font-size:14px; font-size:1.4rem; padding-bottom:4px;}
 .contact .intro {margin-bottom:2.125em;}
 .contact p {width:75%;}
 
@@ -1358,7 +1398,7 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 
 
 /* these needs to be down here or it will be over-ridden by the above */
-.project a:hover {color:#2c282e;}
+.project a:hover {color:#4A4A4A;}
 .workhead:hover .menuarrow, .workhead-m:hover .menuarrow {color:#a7a5a6;}
 
 
@@ -1406,13 +1446,13 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 @media screen and (max-width:1025px){
 .menu {padding-right:0.625em;}
 .menu li {padding:1.250em 1.250em 0.875em;}
-.home-top .home-block {left:10%;}
+/*.home-top .home-block {left:10%;}
 .home-first .home-block {right:7%;}
 .home-second .home-block {left:8%;}
-.home-third .home-block {left:10%;} /*  right:6%  */
+.home-third .home-block {left:10%;} 
 .home-text {padding:4em 0;}
 .home-text h1, .home-text h3 {font-size:40px; font-size:4.0rem;}
-.home-text h1 {padding:0 1em;}
+.home-text h1 {padding:0 1em;}*/
 .work-list li a {padding-right:1.5em;}
 .studio-col2 {width:42%; margin-left:4.5em;}
 .studio-col2.last {margin-left:1em;}
@@ -1500,7 +1540,7 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 .workhead-m {clear:both;display:block;height:2.625em;padding:0 0.938em 0 1.250em;background:#f6f6f6;border-bottom:1px solid #efeff0;cursor:pointer;}
 .workhead-m .client {padding-top:.5em;}
 .workhead-m .menuarrow {float:right;padding-top:0.813em;font-size:17px;font-size:1.7rem;}
-.menu-toggle {cursor:pointer;display:inline-block;font-size:18px;font-size:1.8rem;float:right;color:#fff;background:#2c282e;height:2.778em;width:2.778em;text-align:center;padding:0.833em 0 0 0;}
+.menu-toggle {cursor:pointer;display:inline-block;font-size:18px;font-size:1.8rem;float:right;color:#fff;background:#4A4A4A;height:2.778em;width:2.778em;text-align:center;padding:0.833em 0 0 0;}
 .menu-toggle:before {content:"\7a";}
 .toggled-on .menu-toggle:before {content:"\78";}
 .main-navigation .menu {display:none;}
@@ -1521,7 +1561,7 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 }
 
 @media screen and (max-width:700px){
-.home-text h1, .home-text h3 {font-size:26px; font-size:2.6rem;}
+/*.home-text h1, .home-text h3 {font-size:26px; font-size:2.6rem;}*/
 }
 
 @media screen and (max-width:685px){

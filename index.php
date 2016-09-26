@@ -9,23 +9,30 @@ $level2 = "";
 include('include/header.php');
 ?>
 
-
-
-<section class="home-text">
- 	<h1 style="font-size: 16px;">Bill is building this right now.</h1>
+<!--section class="home-text"-->
+ 	<!--h1 style="font-size: 16px;">Bill is building this right now.</h1-->
   <!--h1>Moth is a savvy, multidisciplinary studio devoted to smart strategies and elegant design solutions.</h1-->
+  <!--/section-->
+<section class="home-top">
+	<h2>Our team <span>doesn't settle for the status quo.</span></h2>
 </section>
 
-<section class="home-first">
-  <span class="home-img" data-picture data-alt="Road Scholar">
-     <span data-src="images/home/homepage-1.png"></span>
-     <span data-src="images/home/homepage-1.png" data-media="(max-width: 600px)"></span>
-     <noscript><img src="images/home/homepage-1.png" alt="Roadscholar"></noscript>
-  </span>
-  <a href="roadscholar" class="home-block">
-    <h2><span class="roadscholar">Roadscholar</span></h2>
-    <div class="home-block-text">Contrary to rumors, print is alive and well in the halls of MIT</div>
-  </a>
+<section class="home-section home-first">
+	<div class="wrap">
+	  <div class="image-grid">
+		  <div class="t-all m-all d2-d11">
+			  <span class="home-img road-scholar" data-picture data-alt="Road Scholar">
+			     <span data-src="images/home/homepage-1.png"></span>
+			     <span data-src="images/home/homepage-1.png" data-media="(max-width: 600px)"></span>
+			     <noscript><img src="images/home/homepage-1.png" alt="Roadscholar"></noscript>
+			  </span>
+			  <a href="road-scholar" class="home-block">
+			    <h2><span class="road-scholar">Let's go there.</span></h2>
+			    <div class="home-block-text">Road Scholar had a wide audience  to reach. We went there.</div>
+			  </a>
+		  </div>
+	  </div>
+	</div>
 </section>
 
 
