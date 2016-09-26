@@ -12,15 +12,32 @@ class="no-js ie8 ie" lang="en"> <![endif]--> <!--[if gt IE 8]><!--><html class="
 <meta name="description" content="<?= $metadescription ?>">
 <meta name="keywords" content="<?= $metakeywords ?>">
 <meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="css/animate.css" type="text/css" />
 <link rel="stylesheet" href="css/globalstyle.css" type="text/css" />	
 <link rel="stylesheet" href="css/gridset2.css" type="text/css" />
 <link href="//cloud.webtype.com/css/a3be9dcd-0236-4cd7-931a-a7dfb8df5baf.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="//use.typekit.net/pgy1jhl.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<!--script type="text/javascript" src="//use.typekit.net/pgy1jhl.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script-->
 <script src="https://use.fontawesome.com/ea8029bf03.js"></script>
 <!--[if lte IE 7]><script src="js/lte-ie7.js"></script><![endif]-->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/modernizr.custom.11944.js"></script>
+<script>
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
 </head>
 
 <body class="<?= $bodyclass ?>">
