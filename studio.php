@@ -223,9 +223,9 @@ include('include/header.php');
 
 
 
-<section class="home-text">
-  <p>Interested in working with Moth?</p>
-  <h3><a href="contact.php">Contact Us</a></h3>
+<section class="text-footer">
+	<p>Interested in working with Moth?</p>
+	<a href="contact.php">Contact Us</a>
 </section>
 
 <?php include( 'include/footer.php' ); ?>
