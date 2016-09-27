@@ -8,32 +8,49 @@ $level1 = "home";
 $level2 = ""; 
 include('include/header.php');
 ?>
-<!--section class="home-text"-->
- 	<!--h1 style="font-size: 16px;">Bill is building this right now.</h1-->
-  <!--h1>Moth is a savvy, multidisciplinary studio devoted to smart strategies and elegant design solutions.</h1-->
-  <!--/section-->
 <section class="home-top">
-	<h2><span>Our team&nbsp;</span><span class="underline">doesn't&nbsp;</span><span class="underline">settle&nbsp;</span><span class="underline">for the&nbsp;</span><span class="underline">status&nbsp;</span><span class="underline">quo.</span></h2>
+	<h2><span>Our team&nbsp;</span><span class="underline">doesn't settle&nbsp;</span><span class="underline">for the status quo.</span></h2>
 	<a href="#first" class="down">Down</a>
 </section>
-
 <section class="home-section home-first" id="first">
 	<div class="wrap">
 		<div class="image-grid">
-			<div class="t-all m-all d2-d11">
+			<div class="t-all m-all d3-d11">
 				<span class="home-img road-scholar" data-picture data-alt="Road Scholar">
 					<span data-src="images/home/homepage-1.png"></span>
 					<span data-src="images/home/homepage-1.png" data-media="(max-width: 600px)"></span>
 					<noscript><img src="images/home/homepage-1.png" alt="Roadscholar"></noscript>
 				</span>
 			</div>
-			<div class="t-all m-all d1-d3">
-				<a href="road-scholar" class="home-block">
+			<div class="t-all m-all d2-d3">
+				<a href="road-scholar" class="home-block road-scholar">
 					<h2><span class="road-scholar">Let's go there.</span></h2>
 					<div class="home-block-text">Road Scholar had a wide audience  to reach. We went there.</div>
 			  	</a>
 			</div>
-	  </div>
+		</div>
+		<div class="image-grid home-second">
+			<div class="m-all d1-d5">
+				<span class="home-img deer" data-picture data-alt="">
+					<span data-src="images/home/homepage-2.png"></span>
+					<span data-src="images/home/homepage-2.png" data-media="(max-width: 600px)"></span>
+					<noscript><img src="images/home/homepage-2.png" alt=""></noscript>
+				</span>
+			</div>
+			<div class="t-all m-all d1-d5">
+				<span class="home-img deer" data-picture data-alt="">
+					<span data-src="images/home/homepage-3.png"></span>
+					<span data-src="images/home/homepage-3.png" data-media="(max-width: 600px)"></span>
+					<noscript><img src="images/home/homepage-3.png" alt=""></noscript>
+				</span>
+			</div>
+			<div class="d7-d10">
+				<a href="deerfield" class="home-block deer">
+					<h2><span class="deer">A different</span> <span class="deer">kind of prep.</span></h2>
+					<div class="home-block-text">How do you make boarding school cool?  Lorem ipsum dolor sit.</div>
+			  	</a>
+			</div>
+		</div>
 	</div>
 </section>
 
