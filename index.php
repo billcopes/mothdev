@@ -9,13 +9,13 @@ $level2 = "";
 include('include/header.php');
 ?>
 <section class="home-top">
-	<h2><span>Our team&nbsp;</span><span class="underline">doesn't settle</span><span class="underline">for the status quo.</span></h2>
-	<a href="#first" class="down">Down</a>
+	<h2><span>Our team&nbsp;</span><span class="underline">doesn&rsquo;t settle</span><span class="underline">for the status quo.</span></h2>
+	<!--a href="#first" class="down"></a-->
 </section>
 <section class="home-section home-first" id="first">
 	<div class="wrap">
 		<div class="image-grid">
-			<div class="t-all m-all d3-d11">
+			<div class="t-all m-all d4-d12">
 				<span class="home-img road-scholar" data-picture data-alt="Road Scholar">
 					<span data-src="images/home/homepage-1.png"></span>
 					<span data-src="images/home/homepage-1.png" data-media="(max-width: 600px)"></span>
@@ -24,7 +24,7 @@ include('include/header.php');
 			</div>
 			<div class="t-all m-all d2-d3">
 				<a href="road-scholar" class="home-block road-scholar">
-					<h2><span class="road-scholar">Let's go there.</span></h2>
+					<h2><span class="road-scholar">Let&rsquo;s go there.</span></h2>
 					<div class="home-block-text">Road Scholar had a wide audience  to reach. We went there.</div>
 			  	</a>
 			</div>
@@ -44,7 +44,7 @@ include('include/header.php');
 					<noscript><img src="images/home/homepage-3.png" alt=""></noscript>
 				</span>
 			</div>
-			<div class="t-all m-all d8-d11">
+			<div class="t-all m-all d7-d10">
 				<a href="deerfield" class="home-block deer">
 					<h2><span class="deer">A different</span> <span class="deer">kind of prep.</span></h2>
 					<div class="home-block-text">How do you make boarding school cool?  Lorem ipsum dolor sit.</div>
@@ -62,7 +62,7 @@ include('include/header.php');
 </ul>
 <section class="home-section home-second" id="second">
 	<div class="wrap">
-		<div class="image-grid">
+		<div class="image-grid yuso">
 			<div class="t-all m-all d6-d12">
 				<span class="home-img yuso" data-picture data-alt="Yuso">
 					<span data-src="images/home/homepage-4.png"></span>
@@ -77,8 +77,8 @@ include('include/header.php');
 			  	</a>
 			</div>
 		</div>
-		<div class="image-grid pushdown-8">
-			<div class="t-all m-all d1-d5">
+		<div class="image-grid">
+			<div class="t-all m-all d1-d5 pushdown-4">
 				<span class="home-img mit-giving" data-picture data-alt="MIT Giving">
 					<span data-src="images/home/homepage-5.png"></span>
 					<span data-src="images/home/homepage-5.png" data-media="(max-width: 600px)"></span>
@@ -97,9 +97,9 @@ include('include/header.php');
 <section class="home-section home-third text-footer" id="third">
 	<h3>Our Vision</h3>
 	<p>We have a holistic view of design, but we’re ever-mindful of the core tenets of the studio.<br class="hide">They anchor our practice.</p>
-	<a href="work" class="">View more work</a>
-	<a href="studio" class="">About us</a>
-	<a href="contact" class="">Say hello</a>
+	<a href="work" class="work">View more work</a>
+	<a href="studio" class="studio">About us</a>
+	<a href="contact" class="contact">Say hello</a>
 </section>
 <?php include( 'include/footer.php' ); ?>
 <script src="js/matchmedia.js"></script>

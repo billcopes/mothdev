@@ -25,10 +25,9 @@ caption, th, td{font-weight:normal;text-align:left;}
 blockquote:before, blockquote:after,q:before, q:after{content:"";}
 blockquote, q{quotes:"" "";}
 a:focus{outline:0;}
-a:active{color: #3E5F7F;}
-a:hover,a:active{outline:0;}
+a:active, a:visited, a {color: #4A4A4A;}
+a:hover, a:active{ outline:0; color:#4A4A4A;}
 a img{border:0;}
-
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 
 
@@ -254,11 +253,11 @@ a.icon-moth-logo span {display:none;}
 	-webkit-box-shadow:none;
 	box-shadow:none;
 }	
-.home .site-header.animated.slideDown {
+/*.home .site-header.animated.slideDown {
 	-moz-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.30);
 	-webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.30);
 	box-shadow:0px 1px 2px rgba(0, 0, 0, 0.30);}
-}
+}*/
 
 /* =MENU
 -------------------------------------------------------------- */
@@ -752,7 +751,7 @@ img.img90 {max-width:90%;min-width:90%;}
 .home-top {
 	background-color: #F4F5F2;
 	height: 590px;
-	height: 100vh;
+	height: 80vh;
 	position: relative;
 	overflow: hidden;
 }
@@ -822,7 +821,6 @@ a.down {
 	animation-delay: 1.5s;
 	animation-duration: 1s;
 	animation-fill-mode: both;
-	transition: all 0.5s ease;
 }
 
 @-webkit-keyframes showdown {
@@ -843,6 +841,9 @@ a.down:hover {
 	position:absolute;
 	color:#4A4A4A;
 	max-width: 280px;
+}
+.home-block:hover {
+	color:#4A4A4A;
 }
 
 .home-block h2 {
@@ -867,13 +868,20 @@ a.down:hover {
 .home-block-text:after {
 	content:" \2192";
 	color: #73E5D0;
+	font-size: 2.3rem;
+	line-height: 0;
+}
+
+.image-grid.yuso img {
+/*	left: 2em;  */
+	position: relative;
 }
 
 /* = Home Page Text Blocks
 ===========================================*/
 .home-block.road-scholar { bottom:0em; }
 .home-block.deer { /*bottom:6em; margin-left: -2em;*/ top: 19em;}
-.home-block.yuso { bottom: -2em;}
+.home-block.yuso { top: 6em;}
 
 /* = Photo Divider and Icon List
 ===========================================*/
@@ -918,7 +926,7 @@ a.down:hover {
 .text-footer {
 	background: #F4F5F2;
 	text-align: center;
-	padding: 3em 0;
+	padding: 4em 0;
 }
 
 .text-footer h3 {
@@ -926,16 +934,66 @@ a.down:hover {
 	font-family: 'faktpro-semibold';
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 1.6rem;
+	font-size: 1.1rem;
 	letter-spacing: .2rem;
+	padding: 0 0 .4rem;
 }
 
-.text-footer p, .studio .text-footer p {
+.text-footer p,
+.studio .text-footer p {
 	font-size: 4.2rem;
 	line-height: 6rem;
 	max-width: 840px;
 	margin: .5rem auto 4rem;
 }
+
+.text-footer a {
+	font-size: 3.2rem;
+	padding: 0 0 .35em;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	margin: 0 2em;
+}
+
+.text-footer a:before {
+	display: block;
+	margin: 1em 0 .5em;
+}
+a.work:before {
+	content: url("../images/home/view-more-work.svg");
+}
+a.studio:before {
+	content: url("../images/home/about-us.svg");
+}
+a.contact:before {
+	content: url("../images/home/say-hello.svg");
+}
+
+.text-footer a::after {
+	content: '';
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	border-width: 0;
+	border-bottom-width: 2px;
+	border-style: solid;
+	border-color: #73e5d0;
+	left: 0;
+	bottom:0;
+	-webkit-transform: translate3d(-101%,0,0);
+	transform: translate3d(-101%,0,0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.text-footer a:hover::after {
+	/*border-bottom:2px solid #73e5d0;*/
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
 
 /* =WORK
 -------------------------------------------------------------- */
@@ -1027,7 +1085,7 @@ a.down:hover {
 .text-block h2 {font-size:11px;font-size:1.1rem; font-weight:700; margin-bottom:2.5em; text-align:center; text-transform:uppercase; letter-spacing:2px;}
 .text-block h2 span {padding-bottom:.625em;}
 .studio h3 {font-size:2rem; font-size:17px; letter-spacing:2px; font-family:"faktpro-semibold"; text-transform:uppercase;}
-.studio h3 a {font-family:"Harriet Display Light", Arial, Helvetica, sans-serif; text-transform:none;}
+.studio h3 a {font-family:"Harriet Display Light", Arial, Helvetica sans-serif; text-transform:none;}
 .intro {margin:2.5em auto 5.75em;}
 
 .clients .text-block {margin:3.2em auto 2.5em;}
@@ -1561,7 +1619,7 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 .footcopy {padding-left:4em;}
 }
 
-@media screen and (max-width:996px){
+@media screen and (max-width:998px){
 	.home-first .home-block, .home-second .home-block {
 		left:0;
 		position:static;
@@ -1570,7 +1628,7 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 		display:block;
 		max-width:100%;
 	}
-	a.down {bottom: 24vh;}
+	a.down {bottom: 12vh;}
 	.home-first .d1-d3 { width:100%; }
 	.pushdown-12,
 	.pushdown-8,
@@ -1580,10 +1638,21 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 	.work-list h2 {font-size:24px;font-size:2.4rem; padding-top:1.250em; width:48%}
 	.work-list h3 {vertical-align:middle;}
 	.phone-overlap img { position: static;}
+	.home .d2-d3 {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width:950px){
-.sub-menu ul ul {left:-9999px;}
+	.sub-menu ul ul {left:-9999px;}
+	.text-footer p, .studio .text-footer p {
+		font-size: 3.2rem;
+		line-height: 5rem;
+		max-width: 640px;
+	}
+	.text-footer a {
+		font-size: 2.2rem;
+	}
 }
 
 @media screen and (max-width:910px){
@@ -1591,6 +1660,8 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 .contact .col3.second {width:47%;}
 .contact .col3.last {width:18%;}
 }
+
+
 
 @media screen and (max-width:850px){
 .work-list li a {height:auto;padding:1.250em 2.250em 0.938em 9.063em;}
@@ -1638,6 +1709,7 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 .toggled-on .menu-toggle:before {content:"\78";}
 .main-navigation .menu {display:none;}
 .toggled-on .menu {display:inline;background:#fff;margin:0;padding:0 0 0 0.750em;position:absolute;top:0;left:0;z-index:2;}
+.home .toggled-on .menu {background:#F4F5F2;}
 .menu li {padding:0.938em 0.750em 0.563em;}
 .sub-menu {padding-left:0;position:relative;top:0;}
 .sub-menu ul {display:block;float:none;margin:0;padding:0;color:#494949;}
@@ -1654,7 +1726,11 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 }
 
 @media screen and (max-width:700px){
-
+	.capabilities { margin: 0;}
+	.capabilities li {
+		width:49%;
+		margin: 4em 0 0;
+	}
 }
 
 @media screen and (max-width:685px){
