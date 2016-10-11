@@ -767,6 +767,8 @@ img.img90 {max-width:90%;min-width:90%;}
 	display: block;
 	max-width: 50vw;
 	animation: fadeInUp 1.7s;
+	animation-delay: .5s;
+	animation-fill-mode: both;
 }
 
 /* =Underline the words */
@@ -774,7 +776,7 @@ img.img90 {max-width:90%;min-width:90%;}
 .home-top h2 span.underline {
 	animation-duration: 1.3s;
 	animation-name: showtext;
-	animation-delay: .9s;
+	animation-delay: 1.1s;
 	animation-fill-mode: both;
 	position: relative;
 }
