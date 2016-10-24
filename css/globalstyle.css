@@ -619,7 +619,6 @@ nav {display:inline;}
 /* The Grid */
 .image-grid {max-width:95%;margin:0 auto;}
 .image-grid img {display:block;max-width:100%;min-width:100%;height:auto;margin:0 auto;}
-img.img90 {max-width:90%;min-width:90%;}
 
 /* FULL WIDTH IMAGES */
 .fw-img img {display:block;max-width:100%;min-width:100%;height:auto;margin:0;}
@@ -702,6 +701,9 @@ img.img90 {max-width:90%;min-width:90%;}
 }
 
 
+/* =UNIQUE PROJECT CSS (Project-specific stuff for extra niceness)
+-------------------------------------------------------------- */
+img.img90 {max-width:90%;min-width:90%;}
 /* =Phone Images
 -------------------------------------------------------------- */
 .phone-overlap { position: relative; }
@@ -717,6 +719,14 @@ img.img90 {max-width:90%;min-width:90%;}
 .yuso .phone-overlap img {
 	top: -192px;
 	left: -44px;
+}
+
+/*Yuso*/
+@media screen and (max-width:960px){
+	img.fish {
+		max-width: 60%;
+		min-width: 60%;
+	}
 }
 
 /* =PADDING
@@ -1740,11 +1750,11 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 .contact-cols {float:left; width:40%;}
 .contact-cols.first {width:50%; margin-left:10%;}
 .contact .col3.first, .contact .col3.second, .contact .col3.last {float:none; display:block; width:100%; margin-bottom:2em;}
+.bg-image2 {display:block; line-height:0;}
 }
 
 @media screen and (max-width:600px){
 .bg-image {display:none;}
-.bg-image2 {display:block; line-height:0;}
 .bg-image2 img {width:100%; height:auto;}
 .studio p, .contact p {width:81.25%; letter-spacing:normal; text-align:left;}
 .studio-col2 {width:40%; margin-left:3.5em;}

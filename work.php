@@ -25,7 +25,7 @@ include('include/header.php');
     <li class="hsph"><a href="harvard-public-health"><h2>Harvard School of Public Health</h2><h3>Visual Identity &amp; Website</h3><span class="icon-next"></span></a></li>
     <li class="bakalar"><a href="bakalar-paine"><h2>Bakalar &amp; Paine Galleries</h2><h3>Print Promotions, Book Design &amp; Ads</h3><span class="icon-next"></span></a></li>
 	<li class="isgm"><a href="isgm"><h2>Isabella Stewart Gardener Museum</h2><h3>Lorem Ipsum &amp; Dolor</h3><span class="icon-next"></span></a></li>
-    <li class="yuso"><a href="yuso"><h2>Yuso</h2><h3>Lorem Ipsum &amp; Dolor</h3><span class="icon-next"></span></a></li>
+    <li class="yuso"><a href="yuso"><h2>Yus&omacr;</h2><h3>Branding, Packaging &amp; Point of Sales</h3><span class="icon-next"></span></a></li>
 	<li class="skinner"><a href="skinner"><h2>Skinner</h2><h3>Lorem Ipsum &amp; Dolor</h3><span class="icon-next"></span></a></li>
 	<li class="sqn"><a href="sqn"><h2>Sine Qua Non</h2><h3>Visual Identity, Packaging &amp; Website</h3><span class="icon-next"></span></a></li>
     <li class="framingham"><a href="framingham"><h2>Framingham State University</h2><h3>Print Collateral</h3><span class="icon-next"></span></a></li>

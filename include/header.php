@@ -121,7 +121,7 @@ $(function() {
         <li<?php if ($level2 == "isgm") { ?> class="active"<?php } ?>><a href="isgm">Isabella Stewart Gardener Museum</a>
           <ul><li><img src="images/isgm/thumb.png" alt="Isabella Stewart Gardener Museum" height="230" width="230"></li></ul>
         </li>
-        <li<?php if ($level2 == "yuso") { ?> class="active"<?php } ?>><a href="yuso">Yuso</a>
+        <li<?php if ($level2 == "yuso") { ?> class="active"<?php } ?>><a href="yuso">Yus&omacr;</a>
           <ul><li><img src="images/yuso/thumb.png" alt="Yuso" height="230" width="230"></li></ul>
         </li>
         <li<?php if ($level2 == "skinner") { ?> class="active"<?php } ?>><a href="skinner">Skinner</a>
