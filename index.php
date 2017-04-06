@@ -9,8 +9,10 @@ $level2 = "";
 include('include/header.php');
 ?>
 <section class="home-top">
-	<h2><span>Our team&nbsp;</span><span class="underline">doesn&rsquo;t settle</span><span class="underline">for the status quo.</span></h2>
-	<!--a href="#first" class="down"></a-->
+	<h2 class="animated fadeIn">
+		<span class="first">Moth is a savvy, multidisciplinary studio devoted to&nbsp;</span>
+		<span class="underline" data-typer-targets='{ "targets" : ["smart strategies","elegant design solutions", "meaningful collaboration", "going the extra mile", "attention to detail", "building strong relationships", "working with, not for, you"]}'></span>
+	</h2>
 </section>
 <section class="home-section home-first" id="first">
 	<div class="wrap">
@@ -104,6 +106,10 @@ include('include/header.php');
 <?php include( 'include/footer.php' ); ?>
 <script src="js/matchmedia.js"></script>
 <script src="js/picturefill.js"></script>
-
+  <script>
+    $(function () {
+      $('[data-typer-targets]').typer();
+    });
+  </script>
 </body>
 </html>

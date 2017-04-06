@@ -12,15 +12,20 @@ class="no-js ie8 ie" lang="en"> <![endif]--> <!--[if gt IE 8]><!--><html class="
 <meta name="description" content="<?= $metadescription ?>">
 <meta name="keywords" content="<?= $metakeywords ?>">
 <meta name="format-detection" content="telephone=no">
-<link rel="stylesheet" href="css/animate.css" type="text/css" />
+<?php if ($development == "true") { //serves the dev style sheet ?>
+<link rel="stylesheet" href="css/globalstyle-dev.css" type="text/css" />	
+<?php } else {?>
 <link rel="stylesheet" href="css/globalstyle.css" type="text/css" />	
+<?php }?>
 <link rel="stylesheet" href="css/gridset2.css" type="text/css" />
-<link href="//cloud.webtype.com/css/a3be9dcd-0236-4cd7-931a-a7dfb8df5baf.css" rel="stylesheet" type="text/css" />
-<!--script type="text/javascript" src="//use.typekit.net/pgy1jhl.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script-->
+<link rel="stylesheet" href="css/animate.css" type="text/css" />
+<link href="//cloud.webtype.com/css/07e7b888-28dd-406a-9a9f-037c315f777a.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="//use.typekit.net/pgy1jhl.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <script src="https://use.fontawesome.com/ea8029bf03.js"></script>
 <!--[if lte IE 7]><script src="js/lte-ie7.js"></script><![endif]-->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jquery.typer.js"></script>
 <script src="js/modernizr.custom.11944.js"></script>
 <script>
 $(function() {
