@@ -9,11 +9,16 @@ $level2 = "";
 include('include/header.php');
 ?>
 <section class="home-top">
-	<h2 class="animated fadeIn">
+	<!--h2 class="animated fadeIn">Moth is a savvy, multidisciplinary studio <br class="br">devoted to <span data-typer-targets="meaningful collaboration, elegant design solutions, going the extra mile, building strong relationships, attention to detail" style="">smart strategies</span>.</h2-->
+	
+	
+	<h2 class="animated fadeIn">Moth is a savvy, multidisciplinary studio <br class="br">devoted to <span data-typer-targets='{ "targets" : ["meaningful collaboration","elegant design solutions", "going the extra mile", "building strong relationships", "attention to detail", "working with, not for, you"]}'>smart strategies</span>.</h2>
+	
+	
+	<!--h2 >
 		<span class="first">Moth is a savvy, multidisciplinary studio devoted to&nbsp;</span>
-		<!--span class="underline" data-typer-targets='{ "targets" : ["smart strategies","elegant design solutions", "meaningful collaboration", "going the extra mile", "attention to detail", "building strong relationships", "working with, not for, you"]}'></span-->
-		<span data-typer-targets="https://lokeshthegenius.github.io/ghost-typer/,https://lokeshthegenius.github.io/ghost-typer/"></span>
-	</h2>
+		<span class="underline" data-typer-targets='{ "targets" : ["","", "", "", "", "", ""]}'></span>
+	</h2-->
 </section>
 <section class="home-section home-first" id="first">
 	<div class="wrap">

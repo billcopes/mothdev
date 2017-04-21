@@ -25,7 +25,6 @@ class="no-js ie8 ie" lang="en"> <![endif]--> <!--[if gt IE 8]><!--><html class="
 <script src="https://use.fontawesome.com/ea8029bf03.js"></script>
 <!--[if lte IE 7]><script src="js/lte-ie7.js"></script><![endif]-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/jquery.typer.js"></script>
 <script src="js/modernizr.custom.11944.js"></script>
 <script>
 $(function() {
@@ -43,6 +42,7 @@ $(function() {
   });
 });
 </script>
+<script src="js/typer.js"></script>
 </head>
 
 <body class="<?= $bodyclass ?>">
