@@ -12,7 +12,7 @@ include('include/header.php');
 	<!--h2 class="animated fadeIn">Moth is a savvy, multidisciplinary studio <br class="br">devoted to <span data-typer-targets="meaningful collaboration, elegant design solutions, going the extra mile, building strong relationships, attention to detail" style="">smart strategies</span>.</h2-->
 	
 	
-	<h2 class="animated fadeIn">Moth is a savvy, multidisciplinary studio <br class="br">devoted to <span data-typer-targets='{ "targets" : ["meaningful collaboration","elegant design solutions", "going the extra mile", "building strong relationships", "attention to detail", "working with, not for, you"]}'>smart strategies</span>.</h2>
+	<h2 class="animated fadeIn">Moth is a savvy, multidisciplinary studio <br class="br">devoted to <span data-typer-targets='{ "targets" : ["meaningful collaboration","elegant design solutions", "going the extra mile", "building strong relationships", "the details"]}'>smart strategies</span>.</h2>
 	
 	
 	<!--h2 >
