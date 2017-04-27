@@ -9,16 +9,7 @@ $level2 = "";
 include('include/header.php');
 ?>
 <section class="home-top">
-	<!--h2 class="animated fadeIn">Moth is a savvy, multidisciplinary studio <br class="br">devoted to <span data-typer-targets="meaningful collaboration, elegant design solutions, going the extra mile, building strong relationships, attention to detail" style="">smart strategies</span>.</h2-->
-	
-	
 	<h2 class="animated fadeIn">Moth is a savvy, multidisciplinary studio <br class="br">devoted to <span data-typer-targets='{ "targets" : ["meaningful collaboration","elegant design solutions", "going the extra mile", "building strong relationships", "the details"]}'>smart strategies</span>.</h2>
-	
-	
-	<!--h2 >
-		<span class="first">Moth is a savvy, multidisciplinary studio devoted to&nbsp;</span>
-		<span class="underline" data-typer-targets='{ "targets" : ["","", "", "", "", "", ""]}'></span>
-	</h2-->
 </section>
 <section class="home-section home-first" id="first">
 	<div class="wrap">
