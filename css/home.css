@@ -1,0 +1,291 @@
+/* 
+--------------------------------------------------------------
+--------------------------------------------------------------
+							HOMEPAGE
+--------------------------------------------------------------
+--------------------------------------------------------------*/
+.home .site-header {
+	width:100%;
+	background:#F4F5F2;
+	height:3.75em;
+	position:fixed;
+	top:0;
+	z-index:10;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}	
+
+.home-section { padding: 5em; }
+.home-top, .home-first, .home-second, .home-third {width:100%; position:relative;}
+.home-img img {display:block;max-width:100%;min-width:100%;height:auto;margin:0;}
+.home-top {
+	background-color: #F4F5F2;
+	transition: all .5s linear;
+	min-height: 592px;
+}
+.home-top h2 {
+	font-size: 4.5rem;
+	margin: 240px 11.15vw 0;
+	line-height: 7.3rem;
+	display: inline-block;
+	transition: all .5s linear;
+}
+.home-top h2 span {
+	border-bottom:0.35rem solid #73E5D0;
+}
+
+.home .image-grid { position:relative; }
+
+/* = Home blocks underneath the main messaging area
+==================================================*/
+
+.home-block {
+	width:auto;
+	position:absolute;
+	color:#4A4A4A;
+	max-width: 280px;
+}
+
+.home-block:hover {
+	color:#4A4A4A;
+}
+
+.home-block h2 {
+	font-size:42px;
+	font-size:4.2rem;
+	line-height:1em;
+	margin:0 auto .25em;
+}
+.home-block h2 span {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	padding: 0 0 .2em;
+}
+.home-block-text {
+	font-size:1.8rem;
+	line-height:1.429em;
+	margin:0 auto;
+	letter-spacing: .03rem;
+}
+
+.home-block-text:after {
+	content:" \2192";
+	color: #73E5D0;
+	font-size: 2.3rem;
+	line-height: 0;
+}
+
+.image-grid.yuso img {
+/*	left: 2em;  */
+	position: relative;
+}
+
+/* = Home Page Text Blocks
+===========================================*/
+.home-block.road-scholar { bottom:0em; }
+.home-block.deer { /*bottom:6em; margin-left: -2em;*/ top: 19em;}
+.home-block.yuso { top: 6em;}
+
+/* = Photo Divider and Icon List
+===========================================*/
+.studio-photo {
+	height: 44vh;
+	background-image: url("../images/home/studio.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left bottom;
+	background-size: 120%;
+	background-size: cover;
+	position: relative;
+	opacity: .7;
+}
+
+.capabilities {
+	list-style-type:inherit;
+	margin: 4em auto 0;
+	padding: 0 2em;
+	max-width: 1200px;
+}
+
+.capabilities li {
+	display: inline-block;
+	width: 24%;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: .3rem;
+}
+.capabilities li:before {
+	display: block;
+	margin: 0 0 .5em;
+}
+.strategy:before { content: url("../images/home/strategy.svg"); }
+.branding:before { content: url("../images/home/branding.svg"); }
+.digital:before { content: url("../images/home/digital.svg"); }
+.print:before { content: url("../images/home/print.svg"); }
+
+/* = Text Footer Styles
+===========================================*/
+.text-footer {
+	background: #F4F5F2;
+	text-align: center;
+	padding: 4em 0;
+}
+
+.text-footer h3 {
+	border-bottom:2px solid #73e5d0;
+	font-family: 'faktpro-semibold';
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	letter-spacing: .2rem;
+	padding: 0 0 .4rem;
+}
+
+.text-footer p,
+.studio .text-footer p {
+	font-size: 4.2rem;
+	line-height: 6rem;
+	max-width: 840px;
+	margin: .5rem auto 4rem;
+}
+
+.text-footer a {
+	font-size: 3.2rem;
+	padding: 0 0 .35em;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	margin: 0 2em;
+}
+
+.text-footer a:before {
+	display: block;
+	margin: 1em 0 .5em;
+}
+a.work:before {
+	content: url("../images/home/view-more-work.svg");
+}
+a.studio:before {
+	content: url("../images/home/about-us.svg");
+}
+a.contact:before {
+	content: url("../images/home/say-hello.svg");
+}
+
+.text-footer a::after {
+	content: '';
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	border-width: 0;
+	border-bottom-width: 2px;
+	border-style: solid;
+	border-color: #73e5d0;
+	left: 0;
+	bottom:0;
+	-webkit-transform: translate3d(-101%,0,0);
+	transform: translate3d(-101%,0,0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.text-footer a:hover::after {
+	/*border-bottom:2px solid #73e5d0;*/
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/* 
+--------------------------------------------------------------
+--------------------------------------------------------------
+						MEDIA QUERIES
+--------------------------------------------------------------
+--------------------------------------------------------------*/
+
+@media screen and (min-width:1180px){
+	.home-top h2 {margin: 240px 18.15vw 0;}
+}
+
+@media screen and (max-width:1020px){
+	.home-top h2{
+		font-size: 3.5rem;
+		line-height: 6.3rem;
+	}
+}
+
+@media screen and (max-width:998px){
+	.home-first .home-block, .home-second .home-block {
+		left:0;
+		position:static;
+		padding:2em 0 0;
+		margin: 0 0 4em;
+		display:block;
+		max-width:100%;
+	}
+	.home-first .d1-d3 { width:100%; }
+	.pushdown-12,
+	.pushdown-8,
+	.pushdown-6,
+	.pushdown-4,
+	.pushdown-2 { margin-top: 0em;}
+	.work-list h2 {font-size:24px;font-size:2.4rem; padding-top:1.250em; width:48%}
+	.work-list h3 {vertical-align:middle;}
+	.phone-overlap img { position: static;}
+	.home .d2-d3 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:950px){
+	.text-footer p, .studio .text-footer p {
+		font-size: 3.2rem;
+		line-height: 5rem;
+		max-width: 640px;
+	}
+	.text-footer a {
+		font-size: 2.2rem;
+	}
+}
+
+@media screen and (max-width:725px){
+	.home-top {min-height: 532px;}
+	.home-top h2{ margin-top:180px;}
+}
+
+@media screen and (max-width:700px){
+	.capabilities { margin: 0;}
+	.capabilities li {
+		width:49%;
+		margin: 4em 0 0;
+	}
+}
+
+@media screen and (max-width:685px){
+	.home-section {padding: 4em;}
+}
+
+@media screen and (max-width:600px){
+	br.hide { display: none; }
+	.home-top h2 { font-size: 3rem; line-height: 5.8rem;}
+}
+
+@media screen and (max-width:500px){
+	.home-top {min-height: 462px;}
+	.home-top h2{ margin-top:120px;}
+	.intro h1 {width:300px;}
+}
+
+@media screen and (max-width:480px){
+	.home-section {padding: 2em;}
+}
+
+@media screen and (max-width:340px){
+	.home-top {min-height: 320px;}
+	.home-top h2 {font-size:2.4rem; line-height:4.3rem; margin: 80px 10vw 0;}
+}
+
+
+

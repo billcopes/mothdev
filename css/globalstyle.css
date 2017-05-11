@@ -159,7 +159,7 @@ a {text-decoration:none;}
 
 
 body,button,input,select,textarea, .back a {font-family:"FaktPro-Blond", Arial, Helvetica, sans-serif; font-style:normal;}
-h1,.home-top, .home-text h3, .home-block h2, .work-list h2, .footsignature, .text-footer {font-family:"Harriet Display Light", Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}
+h1,.home-top, .home-text h3, .home-block h2, .work-list h2, .footsignature, .text-footer, .team-player h4 {font-family:"Harriet Display Light", Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}
 .sub-menu ul ul h2, .studio .wrap ul, .workwithus {font-family:"Harriet Text", Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}
 .client, .sub-menu li a, .project-nav h3, .studio p, .contact p {font-family:"Harriet Text Light", Arial, Helvetica, sans-serif;font-weight:normal;font-style:normal;}
 .sub-menu li.active a {font-family:"Harriet Text Medium";font-style:normal;font-weight:normal;}
@@ -1069,6 +1069,13 @@ a.contact:before {
 .workwithus a {padding-bottom:.25em; border-bottom:2px solid #000;color:#565358;f}
 .workwithus a:hover {color:#4A4A4A;}
 
+/* TEAM */
+.team {margin: 4em 0 5em; font-size: 12px;  font-size: 1.2rem; }
+.team .text-block {margin: 0 auto 2em; }
+.team-player {float: left; width: 25%; text-align: center; margin: 2em 0; letter-spacing:2px;}
+.team-player img {display:block; width: 90%;  margin: 0 auto 20px;}
+.team-player h4 {font-size: 22px; font-size: 2.2rem; margin-bottom: 0; letter-spacing:0;}
+
 /* contact overrides */
 .contact .wrap a {color:#4A4A4A; font-size:14px; font-size:1.4rem; padding-bottom:4px;}
 .contact .intro {margin-bottom:2.125em;}
@@ -1613,6 +1620,10 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 .contact .col3.first {width:35%;}
 .contact .col3.second {width:47%;}
 .contact .col3.last {width:18%;}
+/* team */
+.team-player {width: 50%;}
+.team .text-block {margin: 0 auto 2em;  font-size: 14px;  font-size: 1.4rem}
+.team-player h4 {font-size: 24px; font-size: 2.4rem; }
 }
 
 
@@ -1713,6 +1724,9 @@ a.icon-moth-logo:hover, .icon-facebook, .icon-instagram, .icon-linkedin {color:#
 .brass h1 {width:420px;}
 .clients h1 {width:360px;}
 .workwithus {padding-bottom:2.5em;}
+/* Team */
+.team .text-block {margin-bottom: 1.5em;  font-size: 12px;  font-size: 1.2rem}
+.team-player h4 {font-size: 20px; font-size: 2rem; }
 .project-description, .mit-giving .project-description {width:84%;}
 .credit-left, .credit-right, .credit-single {width:100%;float:none;display:block;text-align:left;padding:0;margin-bottom:0.313em;}
 .icon-pencil, .icon-camera {padding:0 0.750em 0 0;}
@@ -1773,6 +1787,7 @@ br.hide { display: none; }
 .home-top {min-height: 462px;}
 .home-top h2{ margin-top:120px;}
 .intro h1 {width:300px;}
+.team-player {width: 100%;}
 }
 
 
